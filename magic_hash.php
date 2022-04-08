@@ -17,6 +17,8 @@ while(1==1){
         $key = "<KEY_HERE>";
         if (preg_match("/^0e[0-9]*$/",md5($key.$test.$key))){
                 echo $test;
+                echo "\n";
+                echo $i;
                 break;
         }
 }
